@@ -1,0 +1,62 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+.header{
+    color: #ff0000;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.rectangle{
+    width: 13px;
+    height: 400px;
+    background-color: #000000;
+    transform: rotate(-45deg);
+    position: fixed;
+    bottom: 80%;
+    left: 95%;
+    overflow: hidden;
+}
+
+.nav{
+    font-size:0.6875em; 
+}
+
+.nav>li>a{
+    padding: 0;
+    margin: 20px;
+    color:black
+}
+
+#domov:hover, #onas:hover, #tab:hover, #faq:hover{
+    background-color: #ff0000;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+    color: black;
+}
+
+
+h4, p{
+    font-size: 0.8em;
+}
+
+.card-body>.btn-primary{
+    background-color: white;
+    border: 1px black solid;
+    font-size: 0.8em;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-body>.btn-primary:hover, .card-body>.btn-primary:active, .card-body>.btn-primary:focus, .card-body>.btn-primary:visited, .card-body>.btn-primary:active{
+    background-color: white;
+    border: 1px solid black;
+}

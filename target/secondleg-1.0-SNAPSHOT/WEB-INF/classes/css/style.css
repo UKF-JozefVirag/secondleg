@@ -1,0 +1,48 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body,html{
+    overflow: hidden;
+}
+
+.nav{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 4em;
+}
+
+.nav>a{
+    color:black;
+}
+
+.nav>a:hover{
+    transition: ease-in-out 0.5s;
+    color: #ff0000;
+}
+
+.socials{
+    top: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socials>li{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .socials>li{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+} 

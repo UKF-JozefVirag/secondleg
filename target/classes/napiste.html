@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/napiste.css">
+     <script src="js/onas.js"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <title>Eshop - Napíšte nám</title>
+ </head>
+ <body>
+    <div class="rectangle"></div>
+    <div class="header">
+        <h1 class="display-4">second leg</h1>
+    </div>
+<br>
+    <div class="row frm justify-content-center">
+        <div class="col-md-6 col-md-offset-3">
+            <h2>napíšte nám</h2> máte otázku ? feedback ? skvelé !
+            <p>
+                napíšte nám správu dolu do mailu a my vám odpíšeme najskôr ako sa bude dať.
+            </p>
+            <form role="form" method="post" id="reused_form" enctype="multipart/form-data"  >
+                <div class="form-group">
+                    <label for="name">
+                        meno:</label>
+                    <input type="text" class="form-control"
+                    id="name" name="name"  required maxlength="50">
+    
+                </div>
+                <div class="form-group">
+                    <label for="email">
+                        email:</label>
+                    <input type="email" class="form-control"
+                    id="email" name="email" required maxlength="50">
+                </div>
+                <div class="form-group">
+                    <label for="name">
+                        správa:</label>
+                    <textarea class="form-control" type="textarea" name="message"
+                    id="message" placeholder="správu píšte sem"
+                    maxlength="6000" rows="7" style="font-size: 1.2em;"></textarea>
+                </div>
+    
+                            <div class="form-group">
+                    <label for="name">
+                        vložiť obrázok:</label>
+                    <input type="file" class="form-control" id="image" name="image" >
+                </div>
+    
+                <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">odoslať →</button>
+    
+            </form>
+            <div id="success_message" style="width:100%; height:100%; display:none; ">
+                <h3>správa bola úspešne odoslaná.</h3>
+            </div>
+            <div id="error_message"
+            style="width:100%; height:100%; display:none; ">
+                <h3>chyba</h3>
+                ľutujeme, pri odosielaní formulára sa vyskytla chyba.
+    
+            </div>
+        </div>
+    </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" id="domov">domov</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="o_nas.html" id="onas">>napíšte nám</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/en/contact_en.html" id="s"><img src="img/slovakia.png"
+            style="width: 20px" alt="" onmouseover="this.src='img/united-kingdom.png'" onmouseout="this.src='img/slovakia.png'" id="sk"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="tab">veľkosti</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" id="faq">f.a.q.</a>
+          </li>
+      </ul>
+
+ </body>
+ </html>
