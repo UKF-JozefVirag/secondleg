@@ -24,4 +24,94 @@
         <url-pattern>/obchod_servlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>tricka_vypis</servlet-name>
+        <servlet-class>com.webforyou.tricka_vypis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>tricka_vypis</servlet-name>
+        <url-pattern>/tricka_vypis</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>bundy_vypis</servlet-name>
+        <servlet-class>com.webforyou.bundy_vypis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>bundy_vypis</servlet-name>
+        <url-pattern>/bundy_vypis</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ciapky_vypis</servlet-name>
+        <servlet-class>com.webforyou.ciapky_vypis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ciapky_vypis</servlet-name>
+        <url-pattern>/ciapky_vypis</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>doplnky_vypis</servlet-name>
+        <servlet-class>com.webforyou.doplnky_vypis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>doplnky_vypis</servlet-name>
+        <url-pattern>/doplnky_vypis</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>mikiny_vypis</servlet-name>
+        <servlet-class>com.webforyou.mikiny_vypis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>mikiny_vypis</servlet-name>
+        <url-pattern>/mikiny_vypis</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>nohavice_vypis</servlet-name>
+        <servlet-class>com.webforyou.nohavice_vypis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>nohavice_vypis</servlet-name>
+        <url-pattern>/nohavice_vypis</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>saty_vypis</servlet-name>
+        <servlet-class>com.webforyou.saty_vypis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>saty_vypis</servlet-name>
+        <url-pattern>/saty_vypis</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sukne_vypis</servlet-name>
+        <servlet-class>com.webforyou.sukne_vypis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sukne_vypis</servlet-name>
+        <url-pattern>/sukne_vypis</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>topanky_vypis</servlet-name>
+        <servlet-class>com.webforyou.topanky_vypis</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>topanky_vypis</servlet-name>
+        <url-pattern>/topanky_vypis</url-pattern>
+    </servlet-mapping>
+
 </web-app>

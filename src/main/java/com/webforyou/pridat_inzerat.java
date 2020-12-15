@@ -69,7 +69,7 @@ public class pridat_inzerat extends HttpServlet {
                 "     <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js\" integrity=\"sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6\" crossorigin=\"anonymous\"></script>\n" +
                 "     <link href=\"https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap\" rel=\"stylesheet\"> \n" +
                 "     <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">");
-        out.println("<title>asdasd</title>");
+        out.println("<title>Pridanie inzerátu</title>");
         out.println("<body>");
         out.println("<style>");
         out.println("*{font-family: 'Courier New', Courier, monospace;}");
@@ -250,14 +250,14 @@ public class pridat_inzerat extends HttpServlet {
                 "          <a class=\"nav-link\" href=\"index.html\" id=\"domov\">domov</a>\n" +
                 "        </li>\n" +
                 "        <li class=\"nav-item\">\n" +
-                "          <a class=\"nav-link\" href=\"o_nas.html\" id=\"onas\">>napíšte nám</a>\n" +
+                "          <form action='obchod_servlet' method='post'><button style='background-color:transparent; border: 0px; line-height: 4;' type='hidden' name='operacia' value='obchod' class='nav-link' id='onas'>obchod</button></form>" +
                 "        </li>\n" +
                 "        <li class=\"nav-item\">\n" +
                 "          <a class=\"nav-link\" href=\"/napiste.html\" id=\"s\"><img src=\"img/united-kingdom.png\"\n" +
                 "            style=\"width: 20px\" alt=\"\" onmouseover=\"this.src='img/slovakia.png'\" onmouseout=\"this.src='img/united-kingdom.png'\" id=\"sk\"></a>\n" +
                 "        </li>\n" +
                 "        <li class=\"nav-item\">\n" +
-                "          <a class=\"nav-link\" href=\"#\" id=\"tab\">veľkosti</a>\n" +
+                "          <a class=\"nav-link\" href=\"tabulka.html\" id=\"tab\">veľkosti</a>\n" +
                 "        </li>\n" +
                 "        <li class=\"nav-item\">\n" +
                 "            <a class=\"nav-link\" href=\"#\" id=\"faq\">f.a.q.</a>\n" +

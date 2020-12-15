@@ -1,0 +1,45 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+.header{
+    color: #ff0000;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.text{
+    font-size: 0.8em;
+    word-spacing: 6px;
+    text-align: center;
+}
+
+.nav{
+    font-size:0.6875em; 
+}
+
+.nav>li>a{
+    padding: 0;
+    margin: 20px;
+    color:black
+}
+
+#domov:hover, #onas:hover, #tab:hover, #faq:hover{
+    background-color: #ff0000;
+}
+
+.rectangle{
+    width: 13px;
+    height: 400px;
+    background-color: #000000;
+    transform: rotate(-45deg);
+    position: fixed;
+    bottom: 80%;
+    left: 95%;
+    overflow: hidden;
+}
+
